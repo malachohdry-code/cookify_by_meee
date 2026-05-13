@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/logo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/app_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cookify"
+            android:textColor="@color/white"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:shadowColor="#40000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="8"/>
+
+        <TextView
+            android:id="@+id/app_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cook Smart. Eat Better."
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:alpha="0.9"/>
+    </LinearLayout>
+
+</RelativeLayout>
